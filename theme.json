@@ -1,0 +1,89 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 3,
+    "settings": {
+        "appearanceTools": true,
+        "color": {
+            "defaultPalette": false,
+            "background": true,
+            "text": true,
+            "button": true,
+            "custom": true,
+            "link": true,
+            "heading": true,
+            "palette": [
+            ]
+        },
+        "border": {
+            "color": true,
+            "radius": true,
+            "width": true,
+            "style": true
+        },
+        "spacing": {
+            "padding": true,
+            "margin": true,
+            "units": [
+                "px",
+                "rem",
+                "vh",
+                "vw",
+                "%"
+            ],
+            "blockGap": true
+        },
+        "layout": {
+            "contentSize": "1200px",
+            "wideSize": "1300px"
+        },
+        "typography": {
+            "fontFamilies": [
+                {
+                    "fontFamily": "'Montserrat', sans-serif",
+                    "slug":"freddo_montserrat",
+                    "name": "Montserrat Freddo"
+                }
+            ],
+            "customFontSize": true,
+            "dropCap": true,
+            "lineHeight": true,
+            "letterSpacing": true,
+            "textTransform": true,
+            "textAlign": true,
+            "fontWeight": true,
+            "fontStyle": true,
+            "textDecoration": true,
+            "writingMode": true,
+            "fluid": true,
+            "textColumns": true
+        }
+        
+    },
+    "styles": {
+        "typography": {
+            "fontFamily": "freddo_montserrat",
+            "fontSize": "16px",
+            "lineHeight": "1.5",
+            "letterSpacing": "0",
+            "textTransform": "none",
+            "textAlign": "left",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "textDecoration": "none"
+        },
+        "spacing": {
+            "padding": {
+                "top": "0px",
+                "right": "0px",
+                "bottom": "0px",
+                "left": "0px"
+            },
+            "margin": {
+                "top": "0px",
+                "right": "0px",
+                "bottom": "0px",
+                "left": "0px"
+            }
+        }
+    }
+}
