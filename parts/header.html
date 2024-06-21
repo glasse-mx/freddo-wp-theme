@@ -1,18 +1,22 @@
 <!-- wp:group {"tagName":"header","layout":{"type":"default"}} -->
 <header class="wp-block-group">
-    <!-- wp:group {"align":"wide","style":{"color":{"background":"#977201"},"spacing":{"padding":{"right":"3.5rem","left":"3.5rem"}}},"layout":{"type":"default"}} -->
+    <!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"right":"3.5rem","left":"3.5rem","top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"}},"color":{"background":"#111111"}},"layout":{"type":"default"}} -->
     <div class="wp-block-group alignwide has-background"
-        style="background-color:#977201;padding-right:3.5rem;padding-left:3.5rem">
+        style="background-color:#111111;padding-top:var(--wp--preset--spacing--20);padding-right:3.5rem;padding-bottom:var(--wp--preset--spacing--20);padding-left:3.5rem">
         <!-- wp:columns {"isStackedOnMobile":false,"align":"wide"} -->
         <div class="wp-block-columns alignwide is-not-stacked-on-mobile">
             <!-- wp:column {"verticalAlignment":"center"} -->
-            <div class="wp-block-column is-vertically-aligned-center"></div>
+            <div class="wp-block-column is-vertically-aligned-center">
+                <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+                <div class="wp-block-group"><!-- wp:freddo-plus/social-block /--></div>
+                <!-- /wp:group -->
+            </div>
             <!-- /wp:column -->
 
             <!-- wp:column {"verticalAlignment":"center"} -->
             <div class="wp-block-column is-vertically-aligned-center">
                 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"right"}} -->
-                <div class="wp-block-group"></div>
+                <div class="wp-block-group"><!-- wp:freddo-plus/phones-block /--></div>
                 <!-- /wp:group -->
             </div>
             <!-- /wp:column -->

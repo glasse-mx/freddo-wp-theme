@@ -42,8 +42,37 @@ html {
     scroll-behavior: smooth;
 }
 
+
 body {
     font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    min-height: 60vh;
+}
+
+
+/**
+* Header Settings 
+*/
+/* header {
+    width: 100%;
+    position: fixed;
+} */
+
+
+.wp-block-navigation__submenu-container  .wp-block-navigation-item {
+    padding: 1rem;
+    gap: 1rem;
+    transition: all ease 300ms;
+}
+
+.wp-block-navigation__submenu-container .wp-block-navigation-item:hover {
+    background-color: #F3C342;
+}
+
+:where(.wc-block-mini-cart__badge) {
+    background-color: #E09A01 !important;
 }
 
 
@@ -51,8 +80,10 @@ body {
 * Footer Settings 
 */
 
+
 .footer__body {
     position: relative;
+    overflow: hidden;
 }
 
 .footer__body::after {
@@ -74,6 +105,13 @@ body {
 
 .footer__body .footer__content {
     margin: 2.5rem 0 2.5rem;
+    display: grid !important;
+    grid-template-columns: repeat(5,1fr);
+    gap: 1rem
+}
+
+.footer__body .footer__content div {
+    min-height: 208px;
 }
 
 .footer__menu {

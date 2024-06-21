@@ -17,5 +17,7 @@ foreach ($allFiles as $filename) {
 
 // hooks
 add_action('wp_enqueue_scripts', 'freddoEnqueueCB');
+add_action('enqueue_block_editor_assets', 'freddo_editor_styles_cb');
 add_action('wp_head', 'freddoHeadCB', 5);
 add_filter('use_block_editor_for_post_type', 'freddoGutenbergWC', 10, 2);
+add_action('after_setup_theme', 'freddoSetupCB');
