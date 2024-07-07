@@ -1,0 +1,17 @@
+#clgo-wsp {
+    display: none !important;
+}
+
+#clgo iframe {
+    right: auto !important;
+}
+
+@media screen and (max-width: 768px) {
+    .sm-p-1 {
+        padding: 1rem
+    }
+
+    header .sm-p-1 {
+        padding: 0 1rem !important
+    }
+}
